@@ -27,4 +27,25 @@ do {
                 System.out.println("Please choose a valid option.");
             }
         } while (choice != 0);
+
+        public static void showMenu() {
+        System.out.println("\nShape Management Menu");
+        System.out.println("1: add a shape");
+        System.out.println("2: remove a shape by position");
+        System.out.println("3: get information about a shape by position");
+        System.out.println("4: area and perimeter of a shape by position");
+        System.out.println("5: display information of all the shapes");
+        System.out.println("6: translate all the shapes");
+        System.out.println("7: scale all the shapes");
+        System.out.println("0: quit program");
+    }
+
+        public static void addShape() {
+        System.out.println("\nChoose the shape to add");
+        System.out.println("1: Triangle");
+        System.out.println("2: Rectangle");
+        System.out.println("3: Circle");
+        System.out.println("4: Square");
+
+        int shapeChoice = readInt("Enter shape choice: ");
     }
