@@ -1,4 +1,6 @@
 import java.util.Scanner;
+private static Scanner input = new Scanner(System.in);
+private static ShapeList shapes = new ShapeList();
 public static void main(String[] args) {
         int choice;
 do {
