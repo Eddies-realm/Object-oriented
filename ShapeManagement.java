@@ -49,3 +49,21 @@ do {
 
         int shapeChoice = readInt("Enter shape choice: ");
     }
+        if (shapeChoice == 1) {
+            Coordinates p1 = readCoordinates("point 1");
+            Coordinates p2 = readCoordinates("point 2");
+            Coordinates p3 = readCoordinates("point 3");
+        } else if (shapeChoice == 2) {
+            Coordinates position = readCoordinates("rectangle position");
+            int width = readPositiveInt("Enter width: ");
+            int length = readPositiveInt("Enter length: ");
+        } else if (shapeChoice == 3) {
+            Coordinates position = readCoordinates("circle centre");
+            int radius = readPositiveInt("Enter radius: ");
+        } else if (shapeChoice == 4) {
+            Coordinates position = readCoordinates("square position");
+            int side = readPositiveInt("Enter side: ");
+        } else {
+            System.out.println("Invalid shape choice.");
+        }
+    }
